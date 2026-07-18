@@ -1,1 +1,1 @@
-This repository contains all the projects I will be making in my journey of learning the Rust Programming Language. 
+This Repository Contains my walkthrough of a Tutorial for learning Rust Syntax
