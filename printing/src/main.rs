@@ -29,10 +29,11 @@ fn main() {
     //Strings : [growable, mutable, owned string type] - Stored on the heap
     let mut stone_cold: String = String::from("He"); //stone_cold is stored on the heap memory
     println!("Stone cold says: {}", stone_cold);
-    stone_cold.push_str("llo");
+    stone_cold.push_str("llo"); //it pushes to the string variable, i.e. proof that its growable and mutable
     println!("Stone cold says: {}", stone_cold);
     //String Slice
     let string1: String = String::from("hello world");
     let slice: &str = &string1[0..5];
     println!("Slice value = {}", slice);
 }
+//rust clears any memory allocated to any memory variable, if you try to call the slice variable here, i.e. outside the main func, boom, error. Not found in scope.
